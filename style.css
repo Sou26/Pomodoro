@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(69, 41, 118);
+   
+}
+h1{
+    font-size: 150px;
+    color: bisque;
+    margin-left:500px;
+}
+.timer-container{
+    border-radius:50%;
+    opacity: 50%;
+    height:50vh;
+    width: 50vh;
+    border:8px solid #d534db;
+     display:flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+    margin-left:700px;
+    margin-top:80px;
+    color:rgb(187, 187, 214);
+    font-size: 110px;
+
+}
+#start-bin{
+   
+    color:white;
+    background-color:rgb(20, 112, 20);
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 20px;
+}
+#stop{
+   
+    color:bisque;
+    background-color: red;
+    border-radius:50px;
+    padding:15px;
+    font-size: 20px;
+}
+#resetBtn{
+   
+    color:blanchedalmond;
+    background-color: gray;
+    border-radius:50px;
+    padding:15px;
+    font-size: 20px;
+
+}
+
+
+
+button:hover{
+    animation: bubble 0.4s ease-in-out;
+}
+@keyframes bubble {
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.5);
+    }
+    100%{
+        transform:scale(1);
+    }
+    
+}
+@media screen and (max-width:750px){
+    .timer-container{
+        border-radius:50%;
+        opacity: 50%;
+        height:25vh;
+        width: 25vh;
+        border:8px solid #d534db;
+         display:flex;
+         flex-direction:column;
+        justify-content: center;
+        align-items:center; 
+        margin-left:200px;
+        margin-top:150px;
+        color:rgb(187, 187, 214);
+        font-size: 55px;
+    }
+        #start-bin{
+   
+            color:white;
+            background-color:rgb(20, 112, 20);
+            border-radius: 25px;
+            padding: 7px;
+            font-size: 10px;
+        }
+        #stop{
+           
+            color:bisque;
+            background-color: red;
+            border-radius:25px;
+            padding:7px;
+            font-size:10px;
+        }
+        #resetBtn{
+           
+            color:blanchedalmond;
+            background-color: gray;
+            border-radius:25px;
+            padding:7px;
+            font-size:10px;
+        
+        }
+        #but{
+            display:flex;
+            flex-direction: row;
+        }
+        h1{
+            font-size: 70px;
+            color: bisque;
+            margin-left:100px;
+            margin-top: 200px;
+        }
+    
+    
+    
+}
+
+
+ 
